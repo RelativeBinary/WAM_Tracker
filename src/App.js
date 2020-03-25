@@ -3,6 +3,7 @@ import { Header } from './components/Header';
 import { AddSubject } from './components/AddSubject';
 import { SubjectList } from './components/SubjectList';
 import { WeightedAvgMark } from './components/WeightedAvgMark';
+import { ImportCSV } from './components/ImportCSV';
 
 import { GlobalProvider } from './context/GlobalState';
 
@@ -13,6 +14,7 @@ function App() {
     <GlobalProvider>
       <Header />
       <div className='container'>
+        <ImportCSV />
         <AddSubject />
         <SubjectList />
         <WeightedAvgMark />
