@@ -9,7 +9,7 @@ export const WeightedAvgMark = () => {
   const sumProduct = credits.reduce((sum, val, i) => sum + val * marks[i], 0);
   const totalCredits = credits.reduce((sum, val) => sum + val, 0);
 
-  const wam = sumProduct / totalCredits;
+  const wam = (sumProduct / totalCredits).toFixed(2);
 
   console.log(sumProduct);
   console.log(totalCredits);
@@ -20,7 +20,7 @@ export const WeightedAvgMark = () => {
         <div>
           <h4>Your WAM</h4>
           <p id='wam' className='score'>
-            {wam.toFixed(2)}
+            {wam > 0 ? wam : <span>Please add a subject</span>}
           </p>
         </div>
       </div>

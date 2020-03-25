@@ -3,12 +3,7 @@ import AppReducer from './AppReducer';
 
 // Initial state
 const initialState = {
-  classes: [
-    { id: 1, code: 'CSIT111', credit: 6, mark: 87 },
-    { id: 2, code: 'CSIT111', credit: 6, mark: 87 },
-    { id: 3, code: 'CSIT111', credit: 6, mark: 87 },
-    { id: 4, code: 'CSIT111', credit: 6, mark: 87 }
-  ]
+  classes: []
 };
 
 // Create context

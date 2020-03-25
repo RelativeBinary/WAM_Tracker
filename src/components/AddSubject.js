@@ -13,8 +13,8 @@ export const AddSubject = () => {
     const newSubject = {
       id: Math.floor(Math.random() * 1000000),
       code,
-      credit,
-      mark
+      credit: +credit,
+      mark: +mark
     };
 
     addSubject(newSubject);
@@ -40,7 +40,7 @@ export const AddSubject = () => {
             type='number'
             id='credit'
             value={credit}
-            onChange={e => setCredit(parseInt(e.target.value, 10))}
+            onChange={e => setCredit(e.target.value)}
           />
         </div>
         <div className='form-control'>
