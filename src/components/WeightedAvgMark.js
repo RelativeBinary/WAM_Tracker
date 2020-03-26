@@ -24,9 +24,6 @@ export const WeightedAvgMark = () => {
           </p>
         </div>
       </div>
-      <form id='form-export'>
-        <button className='btn'>Export to CSV file</button>
-      </form>
     </>
   );
 };

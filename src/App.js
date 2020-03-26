@@ -15,7 +15,6 @@ function App() {
       <Header />
       <div className='container'>
         <ImportCSV />
-        <AddSubject />
         <SubjectList />
         <WeightedAvgMark />
       </div>

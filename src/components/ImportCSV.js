@@ -3,22 +3,21 @@ import React from 'react';
 export const ImportCSV = () => {
   return (
     <>
-      <h3>Import Subject Data CSV File</h3>
+      <h3>Import Subject Data</h3>
       <form id='form-import'>
         <p>
-          The format of the CSV sshould be a .txt file with each subject listed
-          like the example below:
+          Paste data from a text file in the following format to mass add
+          subjects. Or enter manually.
         </p>
-        <p>
-          CSIT111;6;87;
-          <br />
-          CSIT111;6;87;
-          <br />
-          CSIT111;6;87;
-          <br />
-          CSIT111;6;87;
-        </p>
-        <button className='btn'>Import a CSV file</button>
+        <textarea
+          name='input-text'
+          id='input-text'
+          cols='30'
+          rows='10'
+          placeholder='subject,credits,final mark
+          subject,credits,final mark'
+        ></textarea>
+        <button className='btn'>Import</button>
       </form>
     </>
   );

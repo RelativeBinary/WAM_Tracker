@@ -29,6 +29,10 @@ export const GlobalProvider = ({ children }) => {
     });
   }
 
+  function importCSV(file) {}
+
+  function exportCSV() {}
+
   return (
     <GlobalContext.Provider
       value={{
