@@ -12,12 +12,12 @@ export const ImportCSV = () => {
         <textarea
           name='input-text'
           id='input-text'
-          cols='30'
+          cols='46'
           rows='10'
           placeholder='subject,credits,final mark
           subject,credits,final mark'
         ></textarea>
-        <button className='btn'>Import</button>
+        <button className='btn'>Calculate WAM</button>
       </form>
     </>
   );
