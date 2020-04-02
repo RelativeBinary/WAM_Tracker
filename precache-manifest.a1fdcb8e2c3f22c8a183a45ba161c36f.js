@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f32626c672b9cd4bb19aec78c374c20e",
+    "revision": "84f1a686f5208904503a747fc68aef05",
     "url": "/WAM_Tracker/index.html"
   },
   {
